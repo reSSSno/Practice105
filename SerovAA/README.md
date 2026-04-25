@@ -8,7 +8,8 @@
 - **Redis**: Task queue and result storage
 
 ## Run
-```bash
+
+bash
 docker compose up -d
 
 How it works
@@ -22,11 +23,10 @@ Worker generates password (simulated 2s delay)
 
 Frontend polls for result and displays password
 
-text
 
 ## Проверка работоспособности
 
-```bash
+bash
 # Клонируем репозиторий
 git clone https://github.com/SoftwareEngineering2026/Practice105.git
 cd Practice105/SerovAA/
