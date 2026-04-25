@@ -18,22 +18,22 @@ docker compose up -d
 - Worker generates password (simulated 2s delay)
 - Frontend polls for result and displays password
 
-
+----
 ## Проверка работоспособности
 
-## Клонируем репозиторий
+### Клонируем репозиторий
 git clone https://github.com/SoftwareEngineering2026/Practice105.git
 cd Practice105/SerovAA/
 
-## Создаём структуру и файлы (скопируй вышеуказанные файлы)
+### Создаём структуру и файлы (скопируй вышеуказанные файлы)
 
-## Запускаем
+### Запускаем
 docker compose up -d
 
-## Проверяем
+### Проверяем
 curl http://localhost:8080/api/generate -X POST -H "Content-Type: application/json" -d '{"length": 16, "use_digits": true, "use_special": true}'
 
-## Останавливаем
+### Останавливаем
 docker compose down
 Особенности решения:
 
