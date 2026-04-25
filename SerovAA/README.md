@@ -22,8 +22,8 @@ docker compose up -d
 ## Проверка работоспособности
 
 ### Клонируем репозиторий
-git clone https://github.com/SoftwareEngineering2026/Practice105.git
-cd Practice105/SerovAA/
+- git clone https://github.com/SoftwareEngineering2026/Practice105.git
+- cd Practice105/SerovAA/
 
 ### Создаём структуру и файлы (скопируй вышеуказанные файлы)
 
