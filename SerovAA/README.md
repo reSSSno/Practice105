@@ -35,6 +35,7 @@ curl http://localhost:8080/api/generate -X POST -H "Content-Type: application/js
 
 ### Останавливаем
 docker compose down
+
 ----
 ##Особенности решения:
 
