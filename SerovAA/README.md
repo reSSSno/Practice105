@@ -22,8 +22,8 @@ docker compose up -d
 ## Проверка работоспособности
 
 ### Клонируем репозиторий
-* git clone https://github.com/SoftwareEngineering2026/Practice105.git
-* cd Practice105/SerovAA/
+1. git clone https://github.com/SoftwareEngineering2026/Practice105.git
+2. cd Practice105/SerovAA/
 
 ### Создаём структуру и файлы (скопируй вышеуказанные файлы)
 
@@ -35,7 +35,7 @@ curl http://localhost:8080/api/generate -X POST -H "Content-Type: application/js
 
 ### Останавливаем
 docker compose down
-
+----
 ##Особенности решения:
 
 ✅ Одна точка входа — Nginx на порту 8080
