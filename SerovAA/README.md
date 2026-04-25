@@ -9,7 +9,6 @@
 
 ## Run
 
-bash
 docker compose up -d
 
 ## How it works
@@ -22,7 +21,6 @@ docker compose up -d
 
 ## Проверка работоспособности
 
-bash
 # Клонируем репозиторий
 git clone https://github.com/SoftwareEngineering2026/Practice105.git
 cd Practice105/SerovAA/
