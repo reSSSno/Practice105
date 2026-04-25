@@ -12,16 +12,12 @@
 bash
 docker compose up -d
 
-How it works
-Frontend submits generation request to backend API
-
-Backend creates task in Redis and returns task_id
-
-Worker picks up task from Redis queue
-
-Worker generates password (simulated 2s delay)
-
-Frontend polls for result and displays password
+## How it works
+- Frontend submits generation request to backend API
+- Backend creates task in Redis and returns task_id
+- Worker picks up task from Redis queue
+- Worker generates password (simulated 2s delay)
+- Frontend polls for result and displays password
 
 
 ## Проверка работоспособности
