@@ -37,7 +37,7 @@ curl http://localhost:8080/api/generate -X POST -H "Content-Type: application/js
 docker compose down
 
 ----
-##Особенности решения:
+## Особенности решения:
 
 ✅ Одна точка входа — Nginx на порту 8080
 
